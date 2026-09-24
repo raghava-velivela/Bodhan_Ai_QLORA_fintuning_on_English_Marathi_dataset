@@ -42,14 +42,14 @@ OUTPUT_DIR = "/kaggle/working/indic-translate-marathi-lora"
 
 TARGET_LANGUAGE = "Marathi"
 NUM_EPOCHS = 3
-BATCH_SIZE = 2       # Reduced from 4 to save VRAM
-GRAD_ACCUM = 2       # Increased to maintain effective batch size
+BATCH_SIZE = 2        
+GRAD_ACCUM = 2       
 LEARNING_RATE = 1e-4
-MAX_LEN = 128        # Reduced from 256 to save activation memory
+MAX_LEN = 128         
 ADD_TOKEN_TYPE_IDS = False
 
-# Log into Hugging Face (needed for gated/protected models)
-login("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")
+# Log into Hugging Face  
+login("")
 
 
 # ---------------------------------------------------------------------
